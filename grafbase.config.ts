@@ -1,4 +1,4 @@
-import { g, auth, config } from '@grafbase/sdk'
+import { config, connector,auth, g } from '@grafbase/sdk'
 
 const User = g.model('User', {
   name: g.string().length({ min: 2, max: 20 }),
