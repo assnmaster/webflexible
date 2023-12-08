@@ -20,5 +20,5 @@ const Project = g.model('Project', {
   ceateBy: g.relation(() => User),
 })
 export default config({
-  schema: g,
+  schema: g
 })
